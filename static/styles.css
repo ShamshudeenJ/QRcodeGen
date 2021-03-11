@@ -1,0 +1,54 @@
+.container{
+    width: 60%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+#left-box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin-top: 9%;
+}
+#right-box{
+    text-align: center;
+    float: right;
+    width: 60%;
+    border: 2px solid red;
+}
+body{
+background: url('bg_grey.jpg');
+background-repeat: no-repeat;
+background-size: 1400px 700px;
+}
+label{
+    font-weight: bolder;
+    color:lime;
+    font-size: 30px;
+  }
+  p{
+    color: lime;
+    font-weight: bolder;
+  }
+  input[type=text]{
+    border: 2px solid red;
+    background: springgreen;
+    height: 25px;
+  }
+  input[type=button]{
+    width: 120px;
+    height: 27px;
+    background:aquamarine;
+    border: 2px solid red;
+    border-radius: 7px ;
+     margin: 4px 2px;
+     font-weight: bold;
+  }
+  input[type=button]:hover{
+  background-color: springgreen;
+  cursor: pointer;
+  height: 30px;
+}
+h1{
+  color: lime;
+}
