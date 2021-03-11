@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" onsubmit="return false;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/styles.css" />
+    <script type="text/javascript" src="/static/winter.js"></script>
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <form class="container">
+        <div id="left-box">
+            <label for="upload">Enter Input Text here</label>
+            <br/>
+            <br/>
+            <input type="text" id="upload" placeholder="Enter text" autocomplete="off" >
+            <br/>
+            <br/>
+            <!-- <button id="button" onclick="submit();" >Generate</button> -->
+            <input type="button" onclick="msg()" value="Generate">
+        </div>
+        <div id="right-box">
+            <h1>Generated QR codes</h1>
+            <hr>
+            <img src="" id="image" />
+                </div>
+    </form>
+    
+</body>
+
+</html>
+ 
