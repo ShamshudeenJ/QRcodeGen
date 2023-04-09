@@ -1,3 +1,4 @@
 pyqrcode
 flask_cors
 pypng
+flask
